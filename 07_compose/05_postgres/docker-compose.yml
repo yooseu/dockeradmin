@@ -1,0 +1,27 @@
+# Use postgres/example user/password credentials
+#version: '3.1'
+
+services:
+  db:
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: password
+
+
+# docker run --d --name db --network mynet --restart=always \
+# -e POSTGRES_PASSWORD=password postgres
+
+
+
+# 어드 마이너 db 관리할떄 쓰임 (외 다양한 db도 관리한다)
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - 8080:8080
+
+
+
+
+# docker run -d --name daminet --restart=always -p 8080:8080 adminer

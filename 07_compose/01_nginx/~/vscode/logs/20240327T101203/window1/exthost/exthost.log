@@ -1,0 +1,21 @@
+2024-03-27 10:12:13.240 [info] Extension host with pid 3623 started
+2024-03-27 10:12:13.554 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-03-27 10:12:13.724 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-03-27 10:12:13.937 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-03-27 10:12:14.230 [info] Eager extensions activated
+2024-03-27 10:12:14.315 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-03-27 10:12:14.343 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-03-27 10:12:26.544 [info] Extension host terminating: renderer closed the MessagePort
+2024-03-27 10:12:26.567 [info] Extension host with pid 3623 exiting with code 0
+2024-03-27 10:12:27.898 [info] Extension host with pid 3741 started
+2024-03-27 10:12:27.898 [info] Skipping acquiring lock for /root/docker/07_compose/01_nginx/~/vscode/User/workspaceStorage/7dbc5c6f2a49a1a730cc74011417d59b.
+2024-03-27 10:12:27.982 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2024-03-27 10:12:28.022 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-03-27 10:12:28.063 [info] Eager extensions activated
+2024-03-27 10:12:28.077 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-03-27 10:12:28.080 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-03-27 10:12:30.167 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2024-03-27 10:12:34.708 [info] ExtensionService#_doActivateExtension ms-azuretools.vscode-docker, startup: false, activationEvent: 'onLanguage:dockerfile'
+2024-03-27 10:12:35.320 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-03-27 10:13:32.837 [info] Extension host terminating: renderer closed the MessagePort
+2024-03-27 10:13:32.880 [info] Extension host with pid 3741 exiting with code 0

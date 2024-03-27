@@ -1,0 +1,9 @@
+# docker run --name some-nginx -v /some/content:/usr/share/nginx/html:ro -d nginx
+# 위 아래 같은 내용이다 
+services:
+  web:
+    image: nginx
+    # container_name: some-nginx
+    volumes:
+      - "/some/home/content:/usr/share/nginx/html:ro"
+       # 홈밑에 콘텐츠 를 여기로 마운트 하겠다 

@@ -1,0 +1,11 @@
+FROM ubuntu:18.04
+
+RUN apt-get -y update && apt-get -y upgrade 
+RUN apt-get -y install nginx
+
+EXPOSE 80
+# 현재 폴더 밑에 소스코드 받은게 있는데 [website.tar]
+# onbuild 바로 실행되지 않는다- 다음 빌드시 실행 [내용으로만 넣어놓음]
+ONBUILD ADD website.tar /var/www/html/
+
+CMD ["nginx", "-g", "daemon off;"]
